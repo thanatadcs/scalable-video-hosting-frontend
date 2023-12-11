@@ -1,3 +1,3 @@
 FROM nginx:1.21
 COPY frontend /usr/share/nginx/html
-COPY proxy /etc/nginx/conf.d
+COPY k8s-proxy /etc/nginx/conf.d
